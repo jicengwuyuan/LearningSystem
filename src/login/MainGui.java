@@ -18,7 +18,7 @@ import UIComponent.TextButton;
 import UIComponent.UIStyle;
 
 /**
- * 
+ *
  * login frame
  */
 public class MainGui {
@@ -137,7 +137,7 @@ public class MainGui {
 
 	/**
 	 * set mouse click listener
-	 * 
+	 *
 	 * @param changeRegist button
 	 * @param Login        button
 	 */
@@ -209,9 +209,9 @@ public class MainGui {
 					}
 					//add log out button on interface
 					TextButton logOut = new TextButton(UIStyle.width / 2, UIStyle.height / 2 + 130 - yOfferset,
-							Color.decode("#6EE6B1"), Color.black, "logOut", 120, 35, "normal", true);
+							Color.decode("#e66e6e"), Color.black, "Delete Account", 130, 35, "normal", true);
 					TextButton logOut2 = new TextButton(UIStyle.width / 2, UIStyle.height / 2 + 170 - yOfferset,
-					        Color.decode("#6EE6B1"), Color.black, "Exit", 120, 35, "normal", true);
+					        Color.decode("#6EE6B1"), Color.black, "Exit", 130, 35, "normal", true);
 					content.add(logOut);
 					content.add(logOut2);
 					//log out listener
